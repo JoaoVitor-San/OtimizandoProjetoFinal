@@ -10,28 +10,8 @@ function subtracao(a, b) {
 function multiplicacao(a, b) {
     return a * b;
 }
-function divisao(a, b) {
-    if (b === 0) {
-        return "Erro: Divisão por zero!";
-    }
-    return a / b;
-}
-let resultado;
-switch (operacao) { 
-    case "soma":
-        resultado = soma(numero1, numero2);
-        break;
-    case "subtração":
-        resultado = subtracao(numero1, numero2);
-        break;
-    case "multiplicação":
-        resultado = multiplicacao(numero1, numero2);
-        break;
-    case "divisão":
-        resultado = divisao(numero1, numero2);
-        break;
-    default:
-        resultado = "Operação inválida!";
+
 }
 alert("O resultado da operação é: " + resultado);
 console.log("O resultado da operação é:", resultado);
+
